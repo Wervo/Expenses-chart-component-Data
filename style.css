@@ -66,6 +66,8 @@ body{
 
 .chart h3{
     color:hsl(25, 47%, 15%);
+    padding-bottom:30px;
+    font-size: 1.5rem;
 }
 
 .days{
@@ -101,7 +103,7 @@ body{
 
 .wednesday-bar{
     background-color: hsl(186, 34%, 60%);
-    padding:70px 20px;
+    padding:65px 20px;
     max-width:100%;
     border-radius: 5px;
 }
@@ -218,6 +220,7 @@ body{
     .days {
         gap: 0.3rem; 
     }
+    
 }
 
 @media (max-width:320px){
@@ -249,7 +252,7 @@ body{
     
     .wednesday-bar{
        
-        padding:70px 15px;
+        padding:63px 15px;
     }
     
     .thursday-bar{
@@ -276,5 +279,9 @@ body{
     .last-month p{
         font-size:0.8rem;
         margin-left:25px;
+    }
+
+    .chart h3{
+        font-size: 1.1rem;
     }
 }
